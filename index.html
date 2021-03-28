@@ -294,8 +294,8 @@
             <div id="top"></div>
             
                 <!-- Hamburger Button -->
-                <button class="MD-burger-icon sidebar-toggle">
-                    <span id="MD-burger-id" class="MD-burger-layer"></span>
+                <button class="MD-burger-icon sidebar-toggle" style="background-color: #832839; ">
+                    <span id="MD-burger-id" class="MD-burger-layer" style="background-color: white"></span>
                 </button>
             
             <!-- Index Module -->
@@ -1064,7 +1064,7 @@
 
     <!-- Categories  -->
     
-        <li class="dropdown">
+        <li class="dropdown ">
             <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
                 
                     <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
@@ -1072,7 +1072,7 @@
                 Categories
                 <b class="caret"></b>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" style="display: block;">
                 <li>
                 <a class="sidebar_archives-link" href="/categories/Arts-Music/">Arts & Music<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/categories/Business/">Business<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/categories/English/">English<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/categories/French-Languages/">French & Languages<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Health-Physical-Education/">Health & Physical Education<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/Home-Economics-Family-Studies/">Home Economics & Family Studies<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/Science/">Science<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/Skilled-Trades/">Skilled Trades<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/categories/Social-Studies/">Social Studies<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/Technology/">Technology<span class="sidebar_archives-count">4</span></a>
             </ul>
@@ -1182,7 +1182,7 @@
         <script type="text/ls-javascript" id="search-local-js-script">
     var searchFunc=function(c,a,b){$.ajax({url:c,dataType:"xml",success:function(e){var d=$("entry",e).map(function(){return{title:$("title",this).text(),content:$("content",this).text(),url:$("url",this).text()}}).get();var g=document.getElementById(a);var f=document.getElementById(b);g.addEventListener("input",function(){var i='<ul class="search-result-list">';var h=this.value.trim().toLowerCase().split(/[\s\-]+/);f.innerHTML="";if(this.value.trim().length<=0){return}d.forEach(function(o){var n=true;var s=[];var t=o.title.trim().toLowerCase();var m=o.content.trim().replace(/<[^>]+>/g,"").toLowerCase();var j=o.url;var u=-1;var q=-1;var p=-1;if(t!==""&&m!==""){h.forEach(function(w,x){u=t.indexOf(w);q=m.indexOf(w);if(u<0&&q<0){n=false}else{if(q<0){q=0}if(x===0){p=q}}})}if(n){i+='<li><a href="'+j+'" class="search-result-title" target="_blank">'+t;var r=o.content.trim().replace(/<[^>]+>/g,"");if(p>=0){var k=p-6;var l=p+6;if(k<0){k=0}if(k===0){l=10}if(l>r.length){l=r.length}var v=r.substr(k,l);h.forEach(function(w){var x=new RegExp(w,"gi");v=v.replace(x,'<em class="search-keyword">'+w+"</em>")});i+='<p class="search-result">'+v+"...</p></a>"}}});f.innerHTML=i})}})};
 </script>
-
+    
 
         <script type="text/ls-javascript" id="search-input-script">
             var inputArea = document.querySelector('#search');
