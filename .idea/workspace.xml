@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c567ae94-86a2-452a-9f11-5e1fc630f292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/archives/2021/03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2021/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +31,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616984823108</updated>
-      <workItem from="1616984824189" duration="196000" />
+      <workItem from="1616984824189" duration="760000" />
     </task>
     <servers />
   </component>
