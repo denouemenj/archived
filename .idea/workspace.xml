@@ -3,9 +3,47 @@
   <component name="ChangeListManager">
     <list default="true" id="c567ae94-86a2-452a-9f11-5e1fc630f292" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/Music-Guitars-11-and-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/Music-Guitars-11-and-12/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/Music-Instrumental-11-and-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/Music-Instrumental-11-and-12/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/Music-Voice-11-and-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/Music-Voice-11-and-12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/03/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/03/page/7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/2021/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/2021/page/7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/page/7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Business/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Business/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/English/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/English/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Fine-Arts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Fine-Arts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Health-Phys-Ed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Health-Phys-Ed/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/History-Humanities/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/History-Humanities/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Info-Comm-Tech-Design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Info-Comm-Tech-Design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Languages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Languages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Life-Studies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Life-Studies/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Science/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Science/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Trades/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Trades/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/Transition/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Transition/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/Music-Keyboards-11-and-12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/Music-Keyboards-11-and-12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/Start-Here/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses/Start-Here/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/7/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,7 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1616984823108</updated>
       <workItem from="1616984824189" duration="760000" />
-      <workItem from="1616986001453" duration="1525000" />
+      <workItem from="1616986001453" duration="2805000" />
+      <workItem from="1618701253965" duration="12000" />
+      <workItem from="1648559346255" duration="301000" />
     </task>
     <servers />
   </component>
