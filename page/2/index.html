@@ -18,25 +18,12 @@
     <meta http-equiv="x-dns-prefetch-control" content="on">
 
 
-
     <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
-
-
-
-
-
-
-
-
-
-
-
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
 
 
     <title>
@@ -54,8 +41,8 @@
     <meta name="theme-color" content="#ffffff">
 
 
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="Cache-Control" content="no-transform"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
 
     <!--[if lte IE 9]>
     <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -66,23 +53,301 @@
     <![endif]-->
 
 
-    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+    <script>(function () {
+        window.lsloader = {jsRunSequence: [], jsnamemap: {}, cssnamemap: {}};
+        lsloader.removeLS = function (a) {
+            try {
+                localStorage.removeItem(a)
+            } catch (b) {
+            }
+        };
+        lsloader.setLS = function (a, c) {
+            try {
+                localStorage.setItem(a, c)
+            } catch (b) {
+            }
+        };
+        lsloader.getLS = function (a) {
+            var c = "";
+            try {
+                c = localStorage.getItem(a)
+            } catch (b) {
+                c = ""
+            }
+            return c
+        };
+        versionString = "/*" + (window.materialVersion || "unknownVersion") + "*/";
+        lsloader.clean = function () {
+            try {
+                var b = [];
+                for (var a = 0; a < localStorage.length; a++) {
+                    b.push(localStorage.key(a))
+                }
+                b.forEach(function (e) {
+                    var f = lsloader.getLS(e);
+                    if (window.oldVersion) {
+                        var d = window.oldVersion.reduce(function (g, h) {
+                            return g || f.indexOf("/*" + h + "*/") !== -1
+                        }, false);
+                        if (d) {
+                            lsloader.removeLS(e)
+                        }
+                    }
+                })
+            } catch (c) {
+            }
+        };
+        lsloader.clean();
+        lsloader.load = function (f, a, b, d) {
+            if (typeof b === "boolean") {
+                d = b;
+                b = undefined
+            }
+            d = d || false;
+            b = b || function () {
+            };
+            var e;
+            e = this.getLS(f);
+            if (e && e.indexOf(versionString) === -1) {
+                this.removeLS(f);
+                this.requestResource(f, a, b, d);
+                return
+            }
+            if (e) {
+                var c = e.split(versionString)[0];
+                if (c != a) {
+                    console.log("reload:" + a);
+                    this.removeLS(f);
+                    this.requestResource(f, a, b, d);
+                    return
+                }
+                e = e.split(versionString)[1];
+                if (d) {
+                    this.jsRunSequence.push({name: f, code: e});
+                    this.runjs(a, f, e)
+                } else {
+                    document.getElementById(f).appendChild(document.createTextNode(e));
+                    b()
+                }
+            } else {
+                this.requestResource(f, a, b, d)
+            }
+        };
+        lsloader.requestResource = function (b, e, a, c) {
+            var d = this;
+            if (c) {
+                this.iojs(e, b, function (h, f, g) {
+                    d.setLS(f, h + versionString + g);
+                    d.runjs(h, f, g)
+                })
+            } else {
+                this.iocss(e, b, function (f) {
+                    document.getElementById(b).appendChild(document.createTextNode(f));
+                    d.setLS(b, e + versionString + f)
+                }, a)
+            }
+        };
+        lsloader.iojs = function (d, b, g) {
+            var a = this;
+            a.jsRunSequence.push({name: b, code: ""});
+            try {
+                var f = new XMLHttpRequest();
+                f.open("get", d, true);
+                f.onreadystatechange = function () {
+                    if (f.readyState == 4) {
+                        if ((f.status >= 200 && f.status < 300) || f.status == 304) {
+                            if (f.response != "") {
+                                g(d, b, f.response);
+                                return
+                            }
+                        }
+                        a.jsfallback(d, b)
+                    }
+                };
+                f.send(null)
+            } catch (c) {
+                a.jsfallback(d, b)
+            }
+        };
+        lsloader.iocss = function (f, c, h, a) {
+            var b = this;
+            try {
+                var g = new XMLHttpRequest();
+                g.open("get", f, true);
+                g.onreadystatechange = function () {
+                    if (g.readyState == 4) {
+                        if ((g.status >= 200 && g.status < 300) || g.status == 304) {
+                            if (g.response != "") {
+                                h(g.response);
+                                a();
+                                return
+                            }
+                        }
+                        b.cssfallback(f, c, a)
+                    }
+                };
+                g.send(null)
+            } catch (d) {
+                b.cssfallback(f, c, a)
+            }
+        };
+        lsloader.iofonts = function (f, c, h, a) {
+            var b = this;
+            try {
+                var g = new XMLHttpRequest();
+                g.open("get", f, true);
+                g.onreadystatechange = function () {
+                    if (g.readyState == 4) {
+                        if ((g.status >= 200 && g.status < 300) || g.status == 304) {
+                            if (g.response != "") {
+                                h(g.response);
+                                a();
+                                return
+                            }
+                        }
+                        b.cssfallback(f, c, a)
+                    }
+                };
+                g.send(null)
+            } catch (d) {
+                b.cssfallback(f, c, a)
+            }
+        };
+        lsloader.runjs = function (f, c, e) {
+            if (!!c && !!e) {
+                for (var b in this.jsRunSequence) {
+                    if (this.jsRunSequence[b].name == c) {
+                        this.jsRunSequence[b].code = e
+                    }
+                }
+            }
+            if (!!this.jsRunSequence[0] && !!this.jsRunSequence[0].code && this.jsRunSequence[0].status != "failed") {
+                var a = document.createElement("script");
+                a.appendChild(document.createTextNode(this.jsRunSequence[0].code));
+                a.type = "text/javascript";
+                document.getElementsByTagName("head")[0].appendChild(a);
+                this.jsRunSequence.shift();
+                if (this.jsRunSequence.length > 0) {
+                    this.runjs()
+                }
+            } else {
+                if (!!this.jsRunSequence[0] && this.jsRunSequence[0].status == "failed") {
+                    var d = this;
+                    var a = document.createElement("script");
+                    a.src = this.jsRunSequence[0].path;
+                    a.type = "text/javascript";
+                    this.jsRunSequence[0].status = "loading";
+                    a.onload = function () {
+                        d.jsRunSequence.shift();
+                        if (d.jsRunSequence.length > 0) {
+                            d.runjs()
+                        }
+                    };
+                    document.body.appendChild(a)
+                }
+            }
+        };
+        lsloader.tagLoad = function (b, a) {
+            this.jsRunSequence.push({name: a, code: "", path: b, status: "failed"});
+            this.runjs()
+        };
+        lsloader.jsfallback = function (c, b) {
+            if (!!this.jsnamemap[b]) {
+                return
+            } else {
+                this.jsnamemap[b] = b
+            }
+            for (var a in this.jsRunSequence) {
+                if (this.jsRunSequence[a].name == b) {
+                    this.jsRunSequence[a].code = "";
+                    this.jsRunSequence[a].status = "failed";
+                    this.jsRunSequence[a].path = c
+                }
+            }
+            this.runjs()
+        };
+        lsloader.cssfallback = function (e, c, b) {
+            if (!!this.cssnamemap[c]) {
+                return
+            } else {
+                this.cssnamemap[c] = 1
+            }
+            var d = document.createElement("link");
+            d.type = "text/css";
+            d.href = e;
+            d.rel = "stylesheet";
+            d.onload = d.onerror = b;
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(d, a)
+        };
+        lsloader.runInlineScript = function (c, b) {
+            var a = document.getElementById(b).innerText;
+            this.jsRunSequence.push({name: c, code: a});
+            this.runjs()
+        }
+    })();</script>
 
 
-    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+    <script>function Queue() {
+        this.dataStore = [];
+        this.offer = b;
+        this.poll = d;
+        this.execNext = a;
+        this.debug = false;
+        this.startDebug = c;
+
+        function b(e) {
+            if (this.debug) {
+                console.log("Offered a Queued Function.")
+            }
+            if (typeof e === "function") {
+                this.dataStore.push(e)
+            } else {
+                console.log("You must offer a function.")
+            }
+        }
+
+        function d() {
+            if (this.debug) {
+                console.log("Polled a Queued Function.")
+            }
+            return this.dataStore.shift()
+        }
+
+        function a() {
+            var e = this.poll();
+            if (e !== undefined) {
+                if (this.debug) {
+                    console.log("Run a Queued Function.")
+                }
+                e()
+            }
+        }
+
+        function c() {
+            this.debug = true
+        }
+    }
+
+    var queue = new Queue();</script>
 
 
-
-    <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-    <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?KWoQFFdAzveEglNUFbzt8Q==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-
-
-
-
-
-
-
-
+    <style id="material_css"></style>
+    <script>if (typeof window.lsLoadCSSMaxNums === "undefined") window.lsLoadCSSMaxNums = 0;
+    window.lsLoadCSSMaxNums++;
+    lsloader.load("material_css", "/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==", function () {
+        if (typeof window.lsLoadCSSNums === "undefined") window.lsLoadCSSNums = 0;
+        window.lsLoadCSSNums++;
+        if (window.lsLoadCSSNums == window.lsLoadCSSMaxNums) document.documentElement.style.display = "";
+    }, false)</script>
+    <style id="style_css"></style>
+    <script>if (typeof window.lsLoadCSSMaxNums === "undefined") window.lsLoadCSSMaxNums = 0;
+    window.lsLoadCSSMaxNums++;
+    lsloader.load("style_css", "/css/style.min.css?KWoQFFdAzveEglNUFbzt8Q==", function () {
+        if (typeof window.lsLoadCSSNums === "undefined") window.lsLoadCSSNums = 0;
+        window.lsLoadCSSNums++;
+        if (window.lsLoadCSSNums == window.lsLoadCSSMaxNums) document.documentElement.style.display = "";
+    }, false)</script>
 
 
     <style>
@@ -105,13 +370,13 @@
         #scheme-Paradox .hot_tags-count,
         #scheme-Paradox .sidebar_archives-count,
         #scheme-Paradox .sidebar-colored .sidebar-header,
-        #scheme-Paradox .sidebar-colored .sidebar-badge{
+        #scheme-Paradox .sidebar-colored .sidebar-badge {
             background-color: #832839 !important;
         }
 
         /* Sidebar User Drop Down Menu Text Color */
-        #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
-        #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+        #scheme-Paradox .sidebar-colored .sidebar-nav > .dropdown > .dropdown-menu > li > a:hover,
+        #scheme-Paradox .sidebar-colored .sidebar-nav > .dropdown > .dropdown-menu > li > a:focus {
             color: #832839 !important;
         }
 
@@ -132,8 +397,8 @@
             background: #989898 !important;
         }
 
-        .material-layout .material-post>.material-nav,
-        .material-layout .material-index>.material-nav,
+        .material-layout .material-post > .material-nav,
+        .material-layout .material-index > .material-nav,
         .material-nav a {
             color: #989898;
         }
@@ -154,59 +419,49 @@
     </style>
 
 
-
-
     <style>
-        body{
+        body {
             background-color: #F5F5F5;
         }
 
         /* blog_info bottom background */
-        #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text {
             background-color: #fff;
         }
     </style>
 
 
-
-
-
-
     <style>
         .fade {
             transition: all 800ms linear;
-            -webkit-transform: translate3d(0,0,0);
-            -moz-transform: translate3d(0,0,0);
-            -ms-transform: translate3d(0,0,0);
-            -o-transform: translate3d(0,0,0);
-            transform: translate3d(0,0,0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
             opacity: 1;
         }
 
-        .fade.out{
+        .fade.out {
             opacity: 0;
         }
     </style>
 
 
-
-
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 
 
+    <style id="material_icons"></style>
+    <script>if (typeof window.lsLoadCSSMaxNums === "undefined") window.lsLoadCSSMaxNums = 0;
+    window.lsLoadCSSMaxNums++;
+    lsloader.load("material_icons", "/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==", function () {
+        if (typeof window.lsLoadCSSNums === "undefined") window.lsLoadCSSNums = 0;
+        window.lsLoadCSSNums++;
+        if (window.lsLoadCSSNums == window.lsLoadCSSMaxNums) document.documentElement.style.display = "";
+    }, false)</script>
 
 
-
-    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-
-
-
-
-
-
-    <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
-
+    <script>lsloader.load("jq_js", "/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
 
 
     <meta name="mobile-web-app-capable" content="yes">
@@ -219,48 +474,22 @@
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
 
-
-
-
-
-
-
-
     <meta property="og:url" content="https://courses.harrisontrimble.ca/page/2/">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="HTHS Course Guide">
     <meta property="og:image" content="/img/favicon.ico">
-    <meta property="og:description" content="Use this site to help you choose your next year courses at Harrison Trimble High School for year 2021-2020.">
-
-
-
+    <meta property="og:description"
+          content="Use this site to help you choose your next year courses at Harrison Trimble High School for year 2021-2020.">
 
 
     <meta name="twitter:card" content="summary_large_image">
 
 
-
-    <link rel="canonical" href="https://courses.harrisontrimble.ca/page/2/index.html" />
-
+    <link rel="canonical" href="https://courses.harrisontrimble.ca/page/2/index.html"/>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <meta name="generator" content="Hexo 5.4.0"></head>
-
+    <meta name="generator" content="Hexo 5.4.0">
+</head>
 
 
 <body id="scheme-Paradox" class="lazy">
@@ -278,24 +507,23 @@
 
 
         <div class="material-index mdl-grid">
-            <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "XrQhI9qcvB");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a target="_blank" rel="noopener" href="https://userway.org">website accessibility</a></noscript>
+            <script>(function (d) {
+                var s = d.createElement("script");
+                s.setAttribute("data-account", "XrQhI9qcvB");
+                s.setAttribute("src", "https://cdn.userway.org/widget.js");
+                (d.body || d.head).appendChild(s);
+            })(document)</script>
+            <noscript>Please ensure Javascript is enabled for purposes of <a target="_blank" rel="noopener"
+                                                                             href="https://userway.org">website
+                accessibility</a></noscript>
 
             <div class="locate-thumbnail-symbol"></div>
-
-
-
-
-
 
 
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
 
 
-
-
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
 
 
                     <p class="article-headline-p"><a href="/courses/Start-Here/"><span></span>Start Here</a></p>
@@ -303,7 +531,6 @@
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -333,24 +560,10 @@
             </div>
 
 
-
-
-
-
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
 
 
-
-
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
 
 
                     <p class="article-headline-p"><a href="/courses/Wellness-110/">Wellness 110</a></p>
@@ -358,7 +571,6 @@
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -381,11 +593,6 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
@@ -393,20 +600,10 @@
             </div>
 
 
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
 
 
-
-
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
 
 
                     <p class="article-headline-p"><a href="/courses/IDEA-Centre/">IDEA Centre</a></p>
@@ -414,7 +611,6 @@
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -437,11 +633,6 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
@@ -449,20 +640,10 @@
             </div>
 
 
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
 
 
-
-
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
 
 
                     <p class="article-headline-p"><a href="/courses/Visual-Arts-110/">Visual Arts 110</a></p>
@@ -470,7 +651,6 @@
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -493,11 +673,6 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
@@ -505,20 +680,10 @@
             </div>
 
 
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
 
 
-
-
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
 
 
                     <p class="article-headline-p"><a href="/courses/Sociology-120/">Sociology 120</a></p>
@@ -526,7 +691,6 @@
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -549,11 +713,6 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
@@ -561,28 +720,18 @@
             </div>
 
 
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-
-
 
 
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
 
 
-
-
-                    <p class="article-headline-p"><a href="/courses/Political-Science-120/">Political Science 120</a></p>
+                    <p class="article-headline-p"><a href="/courses/Political-Science-120/">Political Science 120</a>
+                    </p>
                 </div>
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -605,11 +754,6 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
@@ -617,20 +761,10 @@
             </div>
 
 
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
 
 
-
-
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
 
 
                     <p class="article-headline-p"><a href="/courses/Physics-112-and-122/">Physics 112 and 122</a></p>
@@ -638,7 +772,6 @@
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -661,11 +794,6 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
@@ -673,28 +801,18 @@
             </div>
 
 
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-
-
 
 
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
 
 
-
-
-                    <p class="article-headline-p"><a href="/courses/Physical-Activity-through-Team-Sport-110/">Physical Activity through Team Sport 110</a></p>
+                    <p class="article-headline-p"><a href="/courses/Physical-Activity-through-Team-Sport-110/">Physical
+                        Activity through Team Sport 110</a></p>
                 </div>
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -717,11 +835,6 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
@@ -729,20 +842,10 @@
             </div>
 
 
-
-
-
-
-
-
             <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
 
 
-
-
                 <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
 
 
                     <p class="article-headline-p"><a href="/courses/Outdoor-Pursuits-110/">Outdoor Pursuits 110</a></p>
@@ -750,7 +853,6 @@
 
 
                 <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
 
 
                     &nbsp;&nbsp;&nbsp;
@@ -773,150 +875,35 @@
               </span>
 
 
-
-
-
-
-
                         <span class="post_entry-views">
             </span>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-
-
-
-
-                <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
-
-
-                    <p class="article-headline-p"><a href="/courses/Music-Voice-11-and-12/">Music (Voice) 11 and 12</a></p>
-                </div>
-
-
-                <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
-
-
-                    &nbsp;&nbsp;&nbsp;
-                    <span>
-            <a href="/courses/Music-Voice-11-and-12/" target="_self">Read more</a>
-        </span>
-                </div>
-                <div id="post_entry-info">
-                    <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-                        <div>
-                            <strong>Last Updated</strong>
-                            <span>Mar 24, 2021</span>
-                        </div>
-                    </div>
-                    <div id="post_entry-right-info">
-
-
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Fine-Arts/">Fine Arts</a>
-              </span>
-
-
-
-
-
-
-
-                        <span class="post_entry-views">
-            </span>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-
-
-
-
-                <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-
-
-
-
-                    <p class="article-headline-p"><a href="/courses/Music-Keyboards-11-and-12/">Music (Keyboards) 11 and 12</a></p>
-                </div>
-
-
-                <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-
-
-
-                    &nbsp;&nbsp;&nbsp;
-                    <span>
-            <a href="/courses/Music-Keyboards-11-and-12/" target="_self">Read more</a>
-        </span>
-                </div>
-                <div id="post_entry-info">
-                    <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-                        <div>
-                            <strong>Last Updated</strong>
-                            <span>Mar 24, 2021</span>
-                        </div>
-                    </div>
-                    <div id="post_entry-right-info">
-
-
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/Fine-Arts/">Fine Arts</a>
-              </span>
-
-
-
-
-
-
-
-                        <span class="post_entry-views">
-            </span>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
 
 
             <nav class="material-nav mdl-cell mdl-cell--12-col">
-                <a class="extend prev" rel="prev" href="/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/3/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_forward</i></button></a>
+                <a class="extend prev" rel="prev" href="/">
+                    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i
+                            class="material-icons" role="presentation">arrow_back</i></button>
+                </a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a
+                    class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a
+                    class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/3/">
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons"
+                                                                                                  role="presentation">arrow_forward</i>
+                </button>
+            </a>
             </nav>
-
 
 
             <script type="text/javascript" id="thumbnail-script">
                 var randomNum;
 
                 var locatePost = $('.locate-thumbnail-symbol').next();
-                for(var i = 0; i < 10; i++) {
-                    randomNum = Math.floor(Math.random() *  + 1);
+                for (var i = 0; i < 10; i++) {
+                    randomNum = Math.floor(Math.random() * +1);
 
-                    locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+                    locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-' + randomNum);
                     locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
                     $('.post_thumbnail-random').addClass('lazy');
 
@@ -937,7 +924,9 @@
                 <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
                     <div class="top-bar"></div>
 
-                    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+                    <button type="button"
+                            class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+                            style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
                         <i class="material-icons">clear_all</i>
                         <span class="mdl-button__ripple-container">
             <span class="mdl-ripple">
@@ -949,7 +938,6 @@
                         <b class="caret"></b>
                     </a>
                 </div>
-
 
 
                 <ul class="nav sidebar-nav">
@@ -970,7 +958,6 @@
                     </li>
 
 
-
                     <li id="sidebar-first-li">
                         <a href="/">
 
@@ -979,12 +966,6 @@
                             Home
                         </a>
                     </li>
-
-
-
-
-
-
 
 
                     <li class="dropdown ">
@@ -997,31 +978,39 @@
                         </a>
                         <ul class="dropdown-menu" style="display: block;">
                             <li>
-                                <a class="sidebar_archives-link" href="/categories/Business/">Business<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/English/">English<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/categories/Fine-Arts/">Fine Arts<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/categories/Health-Phys-Ed/">Health & Phys Ed<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/History-Humanities/">History/Humanities<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/Info-Comm-Tech-Design/">Info Comm Tech & Design<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/categories/Languages/">Languages<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Life-Studies/">Life Studies<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/categories/Science/">Science<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/Trades/">Trades<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/categories/Transition/">Transition<span class="sidebar_archives-count">4</span></a>
+                                <a class="sidebar_archives-link" href="/categories/Business/">Business<span
+                                        class="sidebar_archives-count">5</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/English/">English<span
+                                    class="sidebar_archives-count">4</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Fine-Arts/">Fine Arts<span
+                                    class="sidebar_archives-count">8</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Health-Phys-Ed/">Health & Phys
+                                Ed<span class="sidebar_archives-count">7</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/History-Humanities/">History/Humanities<span
+                                    class="sidebar_archives-count">6</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Info-Comm-Tech-Design/">Info Comm
+                                Tech & Design<span class="sidebar_archives-count">8</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Languages/">Languages<span
+                                    class="sidebar_archives-count">2</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Life-Studies/">Life Studies<span
+                                    class="sidebar_archives-count">3</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Science/">Science<span
+                                    class="sidebar_archives-count">6</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Trades/">Trades<span
+                                    class="sidebar_archives-count">9</span></a></li>
+                            <li><a class="sidebar_archives-link" href="/categories/Transition/">Transition<span
+                                    class="sidebar_archives-count">4</span></a>
                         </ul>
                     </li>
-
-
-
-
-
-
 
 
                 </ul>
 
 
-
-
-
             </div>
 
 
-
-
         </aside>
-
-
 
 
         <div id="back-to-top" class="toTop-wrap">
@@ -1031,26 +1020,23 @@
         </div>
 
 
-
         <footer class="mdl-mini-footer" id="bottom">
 
             <div id="copyright">
                 Copyright&nbsp;© 2021 Harrison Trimble High School <br>
-                Harrison Trimble High School located in Moncton, New Brunswick, acknowledges the unceded territory of the Wolastoqiyik (Maliseet) and Mi’kmaq peoples.
+                Harrison Trimble High School located in Moncton, New Brunswick, acknowledges the unceded territory of
+                the Wolastoqiyik (Maliseet) and Mi’kmaq peoples.
             </div>
         </footer>
 
 
-
-        <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
-
+        <script>lsloader.load("lazyload_js", "/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
 
 
-        <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+        <script>lsloader.load("js_js", "/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
 
 
-
-        <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+        <script>lsloader.load("np_js", "/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
 
 
         <script type="text/javascript" id="NProgress-script">
@@ -1068,76 +1054,50 @@
                 'border-top-color': '#29d',
                 'border-left-color': '#29d'
             });
-            setTimeout(function() {
+            setTimeout(function () {
                 NProgress.done();
                 $('.fade').removeClass('out');
             }, 800);
         </script>
 
 
-
-
-
-
-
-
         <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-
-
-
-
-
-
-
-
-
-
-
         <script type="text/javascript" id="window-load">
-            $(window).on('load', function() {
+            $(window).on('load', function () {
                 // Post_Toc parent position fixed
                 $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
             });
 
 
-
         </script>
-
-
-
-
-
 
 
         <script type="text/javascript" id="lazy-load">
             // Offer LazyLoad
-            queue.offer(function(){
+            queue.offer(function () {
                 $('.lazy').lazyload({
-                    effect : 'show'
+                    effect: 'show'
                 });
             });
 
             // Start Queue
-            $(document).ready(function(){
-                setInterval(function(){
+            $(document).ready(function () {
+                setInterval(function () {
                     queue.execNext();
-                },200);
+                }, 200);
             });
         </script>
 
 
-
-
-
         <script>
-            (function(){
+            (function () {
                 var scriptList = document.querySelectorAll('script[type="text/javascript"]')
 
                 for (var i = 0; i < scriptList.length; ++i) {
                     var item = scriptList[i];
-                    lsloader.runInlineScript(item.id,item.id);
+                    lsloader.runInlineScript(item.id, item.id);
                 }
             })()
         </script>
